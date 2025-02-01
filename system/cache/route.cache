@@ -1,0 +1,353 @@
+<?php return array (
+  0 => 
+  array (
+    'GET' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+      '' => 'system/pages/news.php',
+      'characters' => 'system/pages/characters.php',
+      'changelog' => 'system/pages/changelog.php',
+      'monsters' => 'system/pages/monsters.php',
+      'faq' => 'system/pages/faq.php',
+      'account/password' => 'system/pages/account/change-password.php',
+      'account/register/new' => 'system/pages/account/register-new.php',
+      'account/email' => 'system/pages/account/change-email.php',
+      'account/info' => 'system/pages/account/change-info.php',
+      'account/character/create' => 'system/pages/account/characters/create.php',
+      'account/character/name' => 'system/pages/account/characters/change-name.php',
+      'account/character/sex' => 'system/pages/account/characters/change-sex.php',
+      'account/character/delete' => 'system/pages/account/characters/delete.php',
+      'account/character/comment' => 'system/pages/account/characters/change-comment.php',
+    ),
+    'POST' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+      'characters' => 'system/pages/characters.php',
+      'monsters' => 'system/pages/monsters.php',
+      'faq' => 'system/pages/faq.php',
+      'account/password' => 'system/pages/account/change-password.php',
+      'account/register/new' => 'system/pages/account/register-new.php',
+      'account/email' => 'system/pages/account/change-email.php',
+      'account/info' => 'system/pages/account/change-info.php',
+      'account/character/create' => 'system/pages/account/characters/create.php',
+      'account/character/name' => 'system/pages/account/characters/change-name.php',
+      'account/character/sex' => 'system/pages/account/characters/change-sex.php',
+      'account/character/delete' => 'system/pages/account/characters/delete.php',
+      'account/character/comment' => 'system/pages/account/characters/change-comment.php',
+    ),
+    'PUT' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+    ),
+    'DELETE' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+    ),
+    'PATCH' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+    ),
+    'HEAD' => 
+    array (
+      'account/base' => 'system/pages/404.php',
+      'forum/base' => 'system/pages/404.php',
+      'guilds/base' => 'system/pages/404.php',
+      'downloads' => '__database__/downloads',
+      'commands' => '__database__/commands',
+      'rules_on_the_page' => '__database__/rules_on_the_page',
+    ),
+  ),
+  1 => 
+  array (
+    'GET' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|news/archive/(\\d+)|news/(\\d+)()|account/confirm\\-email/([A-Za-z0-9]+)()()|bans/(\\d+)()()()|characters/([A-Za-z0-9-_%+\' ]+)()()()()|changelog/(\\d+)()()()()()|monsters/([A-Za-z0-9-_%+\' ]+)()()()()()()|faq/([A-Za-z0-9-_%+\' ]+)()()()()()()()|forum/([A-Za-z0-9-_%+\' ]+)()()()()()()()()|forum/board/(\\d+)()()()()()()()()()|forum/board/(\\d+)/([0-9]+)()()()()()()()()())$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 'system/pages/news/archive.php',
+            1 => 
+            array (
+              'id' => 'id',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 'system/pages/news/archive.php',
+            1 => 
+            array (
+              'id' => 'id',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 'system/pages/account/confirm-email.php',
+            1 => 
+            array (
+              'hash' => 'hash',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 'system/pages/bans.php',
+            1 => 
+            array (
+              'page' => 'page',
+            ),
+          ),
+          6 => 
+          array (
+            0 => 'system/pages/characters.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+          7 => 
+          array (
+            0 => 'system/pages/changelog.php',
+            1 => 
+            array (
+              'page' => 'page',
+            ),
+          ),
+          8 => 
+          array (
+            0 => 'system/pages/monsters.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+          9 => 
+          array (
+            0 => 'system/pages/faq.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          10 => 
+          array (
+            0 => 'system/pages/forum.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          11 => 
+          array (
+            0 => 'system/pages/forum/show_board.php',
+            1 => 
+            array (
+              'id' => 'id',
+            ),
+          ),
+          12 => 
+          array (
+            0 => 'system/pages/forum/show_board.php',
+            1 => 
+            array (
+              'id' => 'id',
+              'page' => 'page',
+            ),
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'regex' => '~^(?|forum/thread/(\\d+)|forum/thread/(\\d+)/(\\d+)|gallery/(\\d+)()()|gallery/([A-Za-z0-9-_%+\' ]+)()()()|guilds/([A-Za-z0-9-_%+\' ]+)()()()()|highscores/([A-Za-z0-9]+)/([A-Za-z0-9]+)/(\\d+)()()()|highscores/([A-Za-z0-9]+)/(\\d+)()()()()()|highscores/([A-Za-z0-9]+)/([A-Za-z0-9]+)()()()()()()|highscores/([A-Za-z0-9]+)()()()()()()()()|account/character/comment/([A-Za-z0-9-_%+\' ]+)()()()()()()()()()|account/confirm_email/([A-Za-z0-9]+)()()()()()()()()()())$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 'system/pages/forum/show_thread.php',
+            1 => 
+            array (
+              'id' => 'id',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 'system/pages/forum/show_thread.php',
+            1 => 
+            array (
+              'id' => 'id',
+              'page' => 'page',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 'system/pages/gallery.php',
+            1 => 
+            array (
+              'image' => 'image',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 'system/pages/gallery.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          6 => 
+          array (
+            0 => 'system/pages/guilds/show.php',
+            1 => 
+            array (
+              'guild' => 'guild',
+            ),
+          ),
+          7 => 
+          array (
+            0 => 'system/pages/highscores.php',
+            1 => 
+            array (
+              'list' => 'list',
+              'vocation' => 'vocation',
+              'page' => 'page',
+            ),
+          ),
+          8 => 
+          array (
+            0 => 'system/pages/highscores.php',
+            1 => 
+            array (
+              'list' => 'list',
+              'page' => 'page',
+            ),
+          ),
+          9 => 
+          array (
+            0 => 'system/pages/highscores.php',
+            1 => 
+            array (
+              'list' => 'list',
+              'vocation' => 'vocation',
+            ),
+          ),
+          10 => 
+          array (
+            0 => 'system/pages/highscores.php',
+            1 => 
+            array (
+              'list' => 'list',
+            ),
+          ),
+          11 => 
+          array (
+            0 => 'system/pages/account/characters/change-comment.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+          12 => 
+          array (
+            0 => 'system/pages/account/confirm-email.php',
+            1 => 
+            array (
+              'hash' => 'hash',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'POST' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|characters/([A-Za-z0-9-_%+\' ]+)|monsters/([A-Za-z0-9-_%+\' ]+)()|faq/([A-Za-z0-9-_%+\' ]+)()()|forum/([A-Za-z0-9-_%+\' ]+)()()()|gallery/([A-Za-z0-9-_%+\' ]+)()()()()|guilds/([A-Za-z0-9-_%+\' ]+)()()()()()|account/character/comment/([A-Za-z0-9-_%+\' ]+)()()()()()())$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 'system/pages/characters.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 'system/pages/monsters.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+          4 => 
+          array (
+            0 => 'system/pages/faq.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 'system/pages/forum.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          6 => 
+          array (
+            0 => 'system/pages/gallery.php',
+            1 => 
+            array (
+              'action' => 'action',
+            ),
+          ),
+          7 => 
+          array (
+            0 => 'system/pages/guilds/show.php',
+            1 => 
+            array (
+              'guild' => 'guild',
+            ),
+          ),
+          8 => 
+          array (
+            0 => 'system/pages/account/characters/change-comment.php',
+            1 => 
+            array (
+              'name' => 'name',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
