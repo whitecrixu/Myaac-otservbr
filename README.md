@@ -1,5 +1,21 @@
 # [MyAAC](https://my-aac.org)
-
+<br>
+Configuration and Requirements
+<br><br>
+To use this script, you need to configure the database in the common.php file.
+Compatibility
+<br><br>
+This modification uses Atomio Template, as it is the only template currently adapted to my settings. All updates and improvements are designed specifically for OtservBR.
+Currently Working Features:
+<br><br>
+✅ Boosted Creature – fully functional<br>
+✅ Boosted Boss – fully functional<br>
+✅ Event Countdown – currently in the testing phase<br>
+Future Plans
+<br><br>
+I will continue implementing small improvements and optimizations.
+<br><br>
+If you have any questions or suggestions, feel free to reach out!
 MyAAC is a free and open-source Automatic Account Creator (AAC) written in PHP. It is a fork of the [Gesior](https://github.com/gesior/Gesior2012) project. It supports only MySQL databases.
 
 Official website: https://my-aac.org
